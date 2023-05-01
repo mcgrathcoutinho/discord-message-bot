@@ -44,7 +44,7 @@ def send_message(message):
 
     try:
         r = requests.post(
-            '<YOUR_CHANNEL_ID', 
+            '<YOUR_CHANNEL_ID>', 
             data=payload,
             headers=header
         )
