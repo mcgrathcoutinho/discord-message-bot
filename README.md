@@ -1,5 +1,5 @@
 # Discord-Message-Bot
-This discord messaging bot automates the sending of a list of messages, which are shuffled every hour and delivered at random times. This was a fun project built for experimentational purposes. There are better security practices you can further implement on top of this project to protect your authorization ID.
+This discord messaging bot automates the sending of a list of messages, which are shuffled every hour and delivered at random time intervals. This was a fun project built for experimentational purposes. There are better security practices you can further implement on top of this project to protect your authorization ID.
 
 ## Steps to use this bot
 
