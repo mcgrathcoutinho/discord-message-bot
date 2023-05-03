@@ -67,7 +67,7 @@ def every_hour():
 
 while True:
     every_hour()
-    time.sleep(3600)
+    #time.sleep(3600)
 
 
 #Randomised the order of messages every hour
