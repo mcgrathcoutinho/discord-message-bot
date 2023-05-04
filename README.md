@@ -11,20 +11,70 @@ https://github.com/mcgrathcoutinho/discord-message-bot.git
 
 ### Installations
 
-1. Check if you have pip using:
+1. Check if you have homwbrew installed:
+```
+brew --version
+```
+If not, install brew using:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Once installed run brew --version again.
+
+2. Add the PATH variable to your shell file:
+```
+nano ~/.zshrc
+```
+OR 
+```
+nano ~/.bash_profile
+```
+Enter this in the file:
+```
+export PATH=/opt/homebrew/bin:$PATH
+```
+Do CTRL+O to save and CTRL+X to exit out of shell file. After exiting, run:
+```
+source ~/.zshrc
+```
+OR
+```
+source ~/.bash_profile
+```
+
+3. Install python using:
+
+```
+brew install python
+```
+Once installed run:
+```
+python --version
+```
+to check if python was installed.
+
+3. Check if you have pip using:
 ```
 pip --version
 ```
+OR
+```
+pip3 --version
+```
 
-2. If you do not have pip, run the following commands:
+4. If you do not have pip, run the following commands:
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-3. Install dotenv using:
+5. Install dotenv using:
 ```
 pip install python-dotenv
+```
+OR
+```
+pip3 install python-dotenv
 ```
 
 ### Create an environment variable file:
@@ -46,4 +96,8 @@ Replace it with the channel ID you want to automate messages to. Again for this,
 ```
 python discord-message.py
 ```
-If you come across any HTTP errors, CTRL+C in your terminal to terminate the script from running. You can then try re-running the script.
+OR 
+```
+python3 discord-message.py
+```
+If you come across any HTTP errors, CTRL+C in your terminal to terminate the script from running (although you do not need to since the script keeps on running even after errors). You can then try re-running the script.
