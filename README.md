@@ -53,7 +53,7 @@ python --version
 ```
 to check if python was installed.
 
-3. Check if you have pip using:
+4. Check if you have pip using:
 ```
 pip --version
 ```
@@ -62,13 +62,13 @@ OR
 pip3 --version
 ```
 
-4. If you do not have pip, run the following commands:
+5. If you do not have pip, run the following commands:
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-5. Install dotenv using:
+6. Install dotenv using:
 ```
 pip install python-dotenv
 ```
